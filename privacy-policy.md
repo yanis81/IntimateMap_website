@@ -109,14 +109,14 @@ Les photos et vidéos ajoutées au Coffre Fort :
 ### 3.3 Google AdMob (Publicités - uniquement version gratuite)
 
 **Service** : Régie publicitaire  
-**Utilisateurs concernés** : Uniquement utilisateurs gratuits (Free)  
+**Utilisateurs concernés** : Uniquement utilisateurs (Free, essential et plus)  
 **Données transmises** :
 - Identifiant publicitaire anonyme (si consentement donné)
 - Données techniques (type d'appareil, OS)
 - Langue et pays
 
 **Consentement GDPR** : Nous demandons systématiquement votre consentement avant d'afficher des publicités personnalisées (conforme TCF v2.2)  
-**Publicités Premium** : Les abonnés Premium/Plus ne voient AUCUNE publicité  
+**Publicités Premium** : Les abonnés Premium ne voient AUCUNE publicité  
 **Politique** : https://policies.google.com/privacy
 
 ### 3.4 Apple App Store / Google Play Store
@@ -167,7 +167,7 @@ Vous pouvez modifier vos spots à tout moment via l'application.
 
 ### 6.3 Droit à l'effacement (Article 17)
 Vous pouvez :
-- Supprimer un spot individuel (longue pression)
+- Supprimer un spot individuel ou public (modal historique)
 - Supprimer tous vos spots : **Paramètres → Supprimer toutes les données**
 - Demander la suppression complète de votre compte : contact@intimatmap.app
 
@@ -182,8 +182,6 @@ Vous pouvez refuser :
 ### 6.6 Droit de limitation (Article 18)
 Vous pouvez demander la limitation du traitement de vos données.
 
-### 6.7 Droit de réclamation
-Vous pouvez déposer une plainte auprès de la **CNIL** (France) : https://www.cnil.fr/
 
 **Pour exercer vos droits :** contact@intimatmap.app  
 **Délai de réponse :** 1 mois maximum (article 12.3 RGPD)
@@ -197,7 +195,7 @@ Vous pouvez déposer une plainte auprès de la **CNIL** (France) : https://www.c
 - **Chiffrement des communications** : HTTPS/TLS 1.3 pour tous les échanges réseau
 - **Chiffrement local** : AES-256 pour le Coffre Fort
 - **Authentification biométrique** : Face ID/Touch ID (gérée par l'OS)
-- **Anonymisation** : Les spots publics ne contiennent aucune donnée identifiante
+- **Anonymisation** : Les spots privés & publics ne contiennent aucune donnée identifiante
 - **Hébergement sécurisé** : Serveurs Supabase certifiés ISO 27001
 
 ### 7.2 Mesures organisationnelles
