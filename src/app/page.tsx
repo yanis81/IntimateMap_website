@@ -21,7 +21,7 @@ export default function Home() {
                 href="https://apps.apple.com"
                 className="rounded-full bg-pink-500 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-pink-400 transition-all transform hover:scale-105"
               >
-                📱 Télécharger sur l'App Stor
+                📱 Télécharger sur l'App Store
               </a>
               <Link
                 href="/guide"
