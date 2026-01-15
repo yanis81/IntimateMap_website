@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         <p className="mb-4">IntimateMap est un journal intime numérique personnel. Vos données restent sur votre appareil par défaut. Nous ne collectons, ne vendons ni ne partageons vos informations personnelles.</p>
 
         <p className="mb-2"><strong>Éditeur de l&apos;application :</strong></p>
-        <p className="mb-1">YL Studio</p>
+        <p className="mb-1">IntimateMap team</p>
         <p className="mb-1">Email : team.ylstudio@gmail.com</p>
         <p className="mb-4">Pays : France</p>
 
