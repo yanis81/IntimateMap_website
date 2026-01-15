@@ -34,7 +34,7 @@ export default function CreerSpotPage() {
       <p>40+ emojis exclusifs disponibles avec :</p>
       <ul>
         <li>Abonnement <strong>Essential, Plus ou Premium</strong></li>
-        <li>OU accès temporaire via <strong>pub récompensée</strong> (5 min)</li>
+        <li>OU regardez une <strong>pub récompensée</strong> pour débloquer UN SEUL spot avec un emoji premium</li>
       </ul>
 
       <h3>4. Ajouter un Commentaire (Optionnel)</h3>
@@ -92,11 +92,11 @@ export default function CreerSpotPage() {
       <hr />
 
       <h2>📺 Publicités Interstitielles</h2>
-      <p><strong>Utilisateurs gratuits et Essential/Plus</strong> :</p>
+      <p>Les publicités interstitielles s'affichent selon votre plan d'abonnement :</p>
       <ul>
-        <li>Une publicité apparaît tous les <strong>2 spots créés</strong></li>
-        <li>Cooldown minimum de <strong>20 secondes</strong> entre deux pubs</li>
-        <li><strong>Abonnement Premium</strong> = aucune publicité</li>
+        <li><strong>Free et Essential</strong> : 1 publicité après chaque spot créé</li>
+        <li><strong>Plus</strong> : 1 publicité pour 2 spots créés</li>
+        <li><strong>Premium</strong> : Aucune publicité</li>
       </ul>
 
       <hr />
@@ -163,7 +163,7 @@ export default function CreerSpotPage() {
       <h3>L'emoji premium est grisé</h3>
       <p><strong>Solution</strong> :</p>
       <ol>
-        <li>Regardez une <strong>pub récompensée</strong> (accès 5 min)</li>
+        <li>Regardez une <strong>pub récompensée</strong> pour débloquer UN spot avec emoji premium</li>
         <li>OU souscrivez à <strong>Essential/Plus/Premium</strong></li>
       </ol>
 

@@ -215,7 +215,8 @@ const pricingPlans = [
       'Spots illimités',
       'Carte interactive',
       'Emojis de base',
-      'Coffre-fort local'
+      'Coffre-fort local',
+      'Publicités (1 pub/spot)'
     ]
   },
   {
@@ -226,7 +227,8 @@ const pricingPlans = [
       'Tout du plan Gratuit',
       '+ 40 emojis premium exclusifs',
       'Plus de personnalisation',
-      'Support prioritaire'
+      'Support prioritaire',
+      'Publicités (1 pub/spot)'
     ]
   },
   {
@@ -239,7 +241,8 @@ const pricingPlans = [
       'Graphiques et tendances',
       'Calendrier interactif',
       'Mode furtif 🥷',
-      'Analyse des streaks'
+      'Analyse des streaks',
+      'Publicités réduites (1 pub/2 spots)'
     ]
   },
   {

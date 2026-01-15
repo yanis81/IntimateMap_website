@@ -36,20 +36,21 @@ export default function FAQPage() {
       <h3>Puis-je supprimer mes spots publics ?</h3>
       <p><strong>OUI</strong>, à tout moment :</p>
       <ol>
-        <li>Ouvrez l'historique</li>
-        <li>Appuyez longuement sur un spot</li>
-        <li>Sélectionnez "Supprimer"</li>
+        <li>Ouvrez la modal historique (icône en bas à gauche)</li>
+        <li>Trouvez le spot à supprimer</li>
+        <li>Cliquez sur l'icône poubelle</li>
         <li>Le spot est retiré de la carte publique ET de votre appareil</li>
       </ol>
 
       <h3>L'app collecte-t-elle mes données personnelles ?</h3>
-      <p><strong>NON</strong> :</p>
+      <p><strong>L'application elle-même ne collecte AUCUNE donnée personnelle</strong> :</p>
       <ul>
         <li>Aucun compte utilisateur requis</li>
         <li>Aucun email collecté</li>
         <li>Aucune donnée vendue à des tiers</li>
         <li>Conformité RGPD</li>
       </ul>
+      <p><strong>Cependant</strong>, notre partenaire publicitaire <strong>AdMob (Google)</strong> collecte certaines données de manière anonyme pour afficher des publicités (identifiant publicitaire, type d'appareil). Ces données sont régies par la politique de confidentialité de Google.</p>
 
       <hr />
 
@@ -83,7 +84,7 @@ export default function FAQPage() {
           <tr>
             <td><strong>Premium</strong></td>
             <td>3,99 EUR/mois</td>
-            <td>+ Sans pub + Mode furtif</td>
+            <td>+ Sans publicité</td>
           </tr>
         </tbody>
       </table>
@@ -92,7 +93,7 @@ export default function FAQPage() {
       <p><strong>NON</strong>, pas d'essai gratuit automatique.</p>
       <p><strong>Mais</strong> : Vous pouvez accéder temporairement aux fonctionnalités premium via <strong>publicités récompensées</strong> :</p>
       <ul>
-        <li>Emojis premium : Accès unique (une fois)</li>
+        <li>Emojis premium : Regardez une vidéo pour débloquer UN SEUL spot avec un emoji premium</li>
         <li>Statistiques : Accès 2 minutes</li>
       </ul>
 
@@ -188,10 +189,18 @@ export default function FAQPage() {
       <p><strong>NON</strong>, tous les badges sont accessibles gratuitement.</p>
       <p>Les fonctionnalités premium sont :</p>
       <ul>
-        <li>Emojis exclusifs</li>
-        <li>Statistiques avancées</li>
-        <li>Mode sans publicité</li>
-        <li>Mode furtif</li>
+        <li>Emojis exclusifs (Essential+)</li>
+        <li>Statistiques avancées (Plus+)</li>
+        <li>Mode furtif 🥷 (Plus+)</li>
+        <li>Sans publicité (Premium)</li>
+      </ul>
+
+      <h3>Comment fonctionnent les publicités ?</h3>
+      <p>Les publicités interstitielles s'affichent selon votre plan :</p>
+      <ul>
+        <li><strong>Free et Essential</strong> : 1 pub après chaque spot créé</li>
+        <li><strong>Plus</strong> : 1 pub pour 2 spots créés</li>
+        <li><strong>Premium</strong> : 0 pub</li>
       </ul>
 
       <hr />

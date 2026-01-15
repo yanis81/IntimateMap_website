@@ -23,7 +23,7 @@ export default function CoffreFortPage() {
 
       <h3>Depuis l'Écran Principal</h3>
       <ol>
-        <li>Ouvrez le <strong>menu des paramètres</strong> (icône en haut à droite)</li>
+        <li>Ouvrez le <strong>menu des paramètres</strong> (icône en bas à droite)</li>
         <li>Sélectionnez <strong>"Coffre-Fort"</strong></li>
       </ol>
 
@@ -47,14 +47,6 @@ export default function CoffreFortPage() {
         <li>Validez l'importation</li>
       </ol>
 
-      <h3>Prendre une Photo</h3>
-      <ol>
-        <li>Appuyez sur <strong>"+ Ajouter"</strong></li>
-        <li>Sélectionnez <strong>"Prendre une photo"</strong></li>
-        <li>Utilisez l'appareil photo intégré</li>
-        <li>Validez pour ajouter au coffre-fort</li>
-      </ol>
-
       <h3>Importer une Vidéo</h3>
       <ol>
         <li>Appuyez sur <strong>"+ Ajouter"</strong></li>
@@ -63,13 +55,9 @@ export default function CoffreFortPage() {
         <li>La vidéo est copiée dans le coffre-fort</li>
       </ol>
 
-      <h3>Enregistrer une Vidéo</h3>
-      <ol>
-        <li>Appuyez sur <strong>"+ Ajouter"</strong></li>
-        <li>Sélectionnez <strong>"Enregistrer une vidéo"</strong></li>
-        <li>Filmez votre contenu</li>
-        <li>Validez pour l'ajouter</li>
-      </ol>
+      <blockquote>
+        <strong>Note</strong> : Le coffre-fort permet uniquement d'importer des photos et vidéos existantes. Vous ne pouvez pas prendre de photos directement depuis le coffre-fort.
+      </blockquote>
 
       <hr />
 
@@ -77,9 +65,9 @@ export default function CoffreFortPage() {
 
       <h3>Depuis l'Historique</h3>
       <ol>
-        <li>Ouvrez <strong>Historique</strong> (icône liste en haut à droite)</li>
+        <li>Ouvrez la <strong>modal historique</strong> (icône en bas à gauche)</li>
         <li>Appuyez sur un <strong>spot</strong></li>
-        <li>Sélectionnez <strong>"Associer un média"</strong></li>
+        <li>Cliquez sur l'<strong>icône épingle</strong> pour associer un média</li>
         <li>Choisissez un fichier du coffre-fort</li>
         <li>Validez l'association</li>
       </ol>

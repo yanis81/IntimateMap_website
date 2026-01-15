@@ -61,7 +61,7 @@ export default function GuidePage() {
       <h3>Interagir avec un Spot</h3>
       <ul>
         <li><strong>Appuyez</strong> sur un marqueur pour voir les détails</li>
-        <li><strong>Appuyez longuement</strong> pour supprimer (uniquement vos spots)</li>
+        <li><strong>Pour supprimer</strong> : Ouvrez la modal historique (bas à gauche) et cliquez sur l'icône poubelle</li>
       </ul>
 
       <hr />
@@ -98,6 +98,7 @@ export default function GuidePage() {
       <hr />
 
       <h2>⚙️ Paramètres Importants</h2>
+      <p>Accédez aux paramètres via l'icône <strong>en bas à droite</strong> de l'écran :</p>
 
       <h3>Activer les Notifications</h3>
       <p>Paramètres &gt; Notifications &gt; Activer les rappels</p>
