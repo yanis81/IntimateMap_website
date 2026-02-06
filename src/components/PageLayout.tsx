@@ -14,6 +14,8 @@ const sidebarLinks = [
   { name: '🔐 Coffre-Fort', href: '/coffre-fort' },
   { name: '❓ FAQ', href: '/faq' },
   { name: '🔒 Confidentialité', href: '/privacy' },
+  { name: '📋 Conditions d\'Utilisation', href: '/terms' },
+  { name: '🛟 Support', href: '/support' },
 ];
 
 export default function PageLayout({ children, showBackLink = true }: PageLayoutProps) {
