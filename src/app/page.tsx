@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import { APP_STORE_BADGE_SRC, APP_STORE_URL } from '@/config/appLinks';
 
 export default function Home() {
   return (
@@ -16,12 +18,21 @@ export default function Home() {
             <p className="mt-6 text-lg leading-8 text-gray-300 max-w-2xl mx-auto">
               Votre journal intime numérique personnel pour cartographier vos moments intimes en toute confidentialité
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6 flex-wrap">
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-4">
               <a
-                href="https://apps.apple.com"
-                className="rounded-full bg-pink-500 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-pink-400 transition-all transform hover:scale-105"
+                href={APP_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block overflow-hidden rounded-[13px] transition-transform hover:scale-105"
               >
-                📱 Télécharger sur l'App Stor
+                <Image
+                  src={APP_STORE_BADGE_SRC}
+                  alt="Download on the App Store"
+                  width={120}
+                  height={40}
+                  className="h-[60px] w-auto"
+                  priority
+                />
               </a>
               <Link
                 href="/guide"
@@ -161,7 +172,9 @@ export default function Home() {
             Téléchargez IntimateMap maintenant et commencez à cartographier vos moments intimes en toute sécurité.
           </p>
           <a
-            href="https://apps.apple.com"
+            href={APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block rounded-full bg-white px-8 py-3 text-base font-semibold text-pink-600 shadow-lg hover:bg-gray-100 transition-all transform hover:scale-105"
           >
             📱 Télécharger maintenant

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { APP_STORE_URL } from '@/config/appLinks';
 
 const navigation = [
   { name: 'Accueil', href: '/' },
@@ -59,7 +60,7 @@ export default function Header() {
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href="https://apps.apple.com"
+              href={APP_STORE_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-pink-500 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-400 transition-colors"
@@ -84,7 +85,7 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="https://apps.apple.com"
+                href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block rounded-md px-3 py-2 text-base font-medium bg-pink-500 text-white text-center mt-4"
