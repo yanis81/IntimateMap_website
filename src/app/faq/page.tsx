@@ -13,44 +13,33 @@ export default function FAQPage() {
       <h3>Mes données sont-elles sécurisées ?</h3>
       <p><strong>OUI</strong>, absolument :</p>
       <ul>
-        <li><strong>Spots privés</strong> : Stockés uniquement sur votre appareil, jamais synchronisés</li>
-        <li><strong>Coffre-fort</strong> : Fichiers entièrement locaux, jamais uploadés</li>
-        <li><strong>Spots publics</strong> : Anonymes (aucun ID utilisateur, localisation approximative)</li>
+        <li><strong>Spots</strong> : stockés sur votre appareil par défaut</li>
+        <li><strong>SAFE</strong> : fichiers protégés localement</li>
+        <li>
+          <strong>Sauvegarde facultative</strong> : archive chiffrée de bout en bout dans votre
+          espace privé iCloud ou Google Drive
+        </li>
       </ul>
 
-      <h3>Qui peut voir mes spots publics ?</h3>
-      <p><strong>La communauté</strong> voit uniquement :</p>
-      <ul>
-        <li>Localisation approximative (arrondie)</li>
-        <li>Note (étoiles)</li>
-        <li>Emoji</li>
-      </ul>
-      <p><strong>Jamais visible</strong> :</p>
-      <ul>
-        <li>Votre identité</li>
-        <li>Commentaire privé</li>
-        <li>Adresse exacte</li>
-        <li>Historique complet</li>
-      </ul>
-
-      <h3>Puis-je supprimer mes spots publics ?</h3>
-      <p><strong>OUI</strong>, à tout moment :</p>
-      <ol>
-        <li>Ouvrez la modal historique (icône en bas à gauche)</li>
-        <li>Trouvez le spot à supprimer</li>
-        <li>Cliquez sur l'icône poubelle</li>
-        <li>Le spot est retiré de la carte publique ET de votre appareil</li>
-      </ol>
-
-      <h3>L'app collecte-t-elle mes données personnelles ?</h3>
-      <p><strong>L'application elle-même ne collecte AUCUNE donnée personnelle</strong> :</p>
+      <h3>L&apos;app collecte-t-elle mes données personnelles ?</h3>
+      <p><strong>Vos contenus privés ne sont pas transmis aux prestataires techniques</strong> :</p>
       <ul>
         <li>Aucun compte utilisateur requis</li>
-        <li>Aucun email collecté</li>
-        <li>Aucune donnée vendue à des tiers</li>
-        <li>Conformité RGPD</li>
+        <li>Aucun spot, note, partenaire, média ou contenu SAFE envoyé à AdMob</li>
+        <li>Aucun contenu privé envoyé à PostHog, RevenueCat ou Sentry</li>
       </ul>
-      <p><strong>Cependant</strong>, notre partenaire publicitaire <strong>AdMob (Google)</strong> collecte certaines données de manière anonyme pour afficher des publicités (identifiant publicitaire, type d'appareil). Ces données sont régies par la politique de confidentialité de Google.</p>
+      <p>
+        Des données techniques minimales sont néanmoins traitées par{' '}
+        <strong>Google AdMob/UMP</strong> pour les publicités, <strong>PostHog</strong> pour les
+        statistiques d&apos;usage limitées, <strong>RevenueCat</strong> pour les abonnements et{' '}
+        <strong>Sentry</strong> pour les diagnostics. Sur iOS, l&apos;IDFA n&apos;est utilisé
+        qu&apos;après autorisation ATT.
+      </p>
+      <p>
+        <a href="/privacy">
+          Consultez la politique de confidentialité complète et les contrôles disponibles.
+        </a>
+      </p>
 
       <hr />
 
@@ -240,30 +229,29 @@ export default function FAQPage() {
       <h3>Quelle version iOS minimum ?</h3>
       <p><strong>iOS 13.0</strong> ou supérieur.</p>
 
-      <h3>L'app fonctionne-t-elle hors ligne ?</h3>
+      <h3>L&apos;app fonctionne-t-elle hors ligne ?</h3>
       <p><strong>Partiellement</strong> :</p>
       <p>✅ <strong>Fonctionne hors ligne</strong> :</p>
       <ul>
         <li>Créer des spots privés</li>
-        <li>Consulter l'historique</li>
+        <li>Consulter l&apos;historique</li>
         <li>Accéder au coffre-fort</li>
         <li>Voir les badges</li>
       </ul>
       <p>❌ <strong>Requiert internet</strong> :</p>
       <ul>
-        <li>Charger les spots publics sur la carte</li>
-        <li>Synchroniser les spots publics</li>
+        <li>Charger les fonds de carte</li>
+        <li>Créer ou restaurer une sauvegarde privée chiffrée</li>
         <li>Regarder les publicités</li>
         <li>Vérifier les abonnements</li>
       </ul>
 
-      <h3>Puis-je utiliser l'app sur plusieurs appareils ?</h3>
-      <p><strong>OUI</strong>, mais avec limitations :</p>
+      <h3>Puis-je utiliser l&apos;app sur plusieurs appareils ?</h3>
+      <p><strong>OUI</strong>, avec la sauvegarde facultative :</p>
       <ul>
-        <li><strong>Spots privés</strong> : Non synchronisés entre appareils</li>
-        <li><strong>Coffre-fort</strong> : Non synchronisé entre appareils</li>
-        <li><strong>Abonnement</strong> : Partagé via Family Sharing iOS (si configuré)</li>
-        <li><strong>Spots publics</strong> : Visibles sur tous les appareils (communauté)</li>
+        <li><strong>Données privées</strong> : restauration possible depuis une sauvegarde chiffrée dans le même écosystème</li>
+        <li><strong>Code de récupération</strong> : indispensable pour déchiffrer la sauvegarde</li>
+        <li><strong>Abonnement</strong> : restauré à partir du compte App Store</li>
       </ul>
 
       <hr />

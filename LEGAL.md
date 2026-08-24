@@ -1,7 +1,7 @@
 # IntimateMap - Documents Légaux
 
 > **Pour publication sur le site web officiel**  
-> Dernière mise à jour : 15 janvier 2026
+> Dernière mise à jour : 24 août 2026
 
 ---
 
@@ -100,72 +100,23 @@ Pour toute question concernant ces conditions, contactez-nous à : **team.ylstud
 
 ## 🔒 Politique de Confidentialité
 
-### 1. Collecte des données
+La politique publiée et tenue à jour est disponible à l'adresse :
 
-IntimateMap est un journal intime numérique personnel. Vos données restent sur votre appareil par défaut.
+**https://intimatemap.vercel.app/privacy**
 
-**Nous collectons uniquement :**
+Elle précise notamment que :
 
-- Les spots que vous créez (localisation, évaluation, commentaire, emoji)
-- Vos préférences d'application (thème, notifications)
-
-**Nous ne collectons JAMAIS :**
-
-- Vos informations personnelles (nom, email, téléphone, adresse)
-- Vos photos ou vidéos
-- Vos contacts ou autres données de votre appareil
-- Aucune donnée de tracking publicitaire
-
-### 2. Stockage des données
-
-**Spots privés :** Stockés uniquement sur votre appareil. Jamais synchronisés avec nos serveurs. Jamais visibles par qui que ce soit d'autre.
-
-**Spots publics :** Si vous choisissez de partager un spot publiquement, il est stocké de manière anonyme sur nos serveurs et visible par les autres utilisateurs. Vous pouvez le supprimer à tout moment.
-
-**Coffre Fort :** Les photos et vidéos ajoutées au Coffre Fort sont stockées localement dans l'espace sécurisé de l'application sur votre appareil. Elles ne sont jamais envoyées sur nos serveurs.
-
-**Sécurité Biométrique :** Si vous activez le verrouillage par Biométrique, l'authentification est gérée localement par votre appareil. Nous n'avons jamais accès à vos données biométriques.
-
-### 3. Utilisation des données
-
-Vos données sont utilisées uniquement pour faire fonctionner l'application : afficher vos spots, calculer vos statistiques, et partager les spots publics si vous le souhaitez.
-
-**Nous ne collectons personnellement aucune donnée utilisateur.** Cependant, notre partenaire publicitaire AdMob (Google) collecte certaines données de manière anonyme pour afficher des publicités pertinentes (identifiant publicitaire, type d'appareil, utilisation de l'app). Ces données sont régies par la politique de confidentialité de Google.
-
-**Nous ne vendons jamais vos données.** Nous n'avons pas accès aux données collectées par AdMob.
-
-### 4. Sécurité
-
-Nous protégeons vos données avec des mesures de sécurité techniques (chiffrement des communications, hébergement sécurisé, anonymisation des spots publics).
-
-**Votre responsabilité :** Vous devez sécuriser votre appareil (code PIN, mot de passe) et effectuer vos propres sauvegardes. Nous ne pouvons être tenus responsables en cas d'accès non autorisé à un appareil non sécurisé.
-
-### 5. Vos droits
-
-Vous pouvez à tout moment :
-
-- Supprimer tous vos spots via Paramètres → Supprimer toutes les données
-- Supprimer un spot individuellement via l'icône poubelle dans Historique
-- Désactiver les notifications dans les paramètres
-
-Pour toute demande concernant vos données personnelles : **team.ylstudio@gmail.com**
-
-### 6. Protection des mineurs
-
-IntimateMap est un journal intime numérique personnel. L'application ne contient aucun contenu compromettant en elle-même et peut être utilisée par des mineurs comme outil de journal personnel.
-
-Pour toute question concernant l'utilisation par des mineurs : **team.ylstudio@gmail.com**
-
-### 7. Modifications
-
-Nous pouvons modifier cette politique à tout moment. En cas de modification importante, nous vous en informerons via l'application.
-
-### 8. Contact
-
-Pour toute question concernant vos données personnelles : **team.ylstudio@gmail.com**
+- les spots, localisations précises, notes, partenaires, photos, vidéos et contenus SAFE restent locaux par défaut et ne sont jamais transmis à PostHog, AdMob, RevenueCat ou Sentry ;
+- une sauvegarde chiffrée de bout en bout peut être envoyée, après accord explicite, dans l'espace privé iCloud ou Google Drive de l'utilisateur ;
+- Google AdMob/UMP peut traiter des données techniques publicitaires et n'utilise l'IDFA sur iOS qu'après autorisation ATT ;
+- PostHog traite un identifiant aléatoire et des événements manuels limités, sans autocapture, GeoIP ni relecture de session ;
+- RevenueCat et Apple traitent les identifiants anonymes, produits, droits et statuts nécessaires aux abonnements ;
+- Sentry traite des rapports de panne et diagnostics filtrés, sans informations personnelles par défaut, capture d'écran ni hiérarchie de vues ;
+- les choix publicitaires peuvent être gérés dans l'application et ATT dans les réglages iOS ;
+- IntimateMap est destiné aux personnes âgées de 18 ans ou plus.
 
 ---
 
-**Dernière mise à jour :** 15 janvier 2026  
+**Dernière mise à jour :** 24 août 2026
 **Éditeur :** YL Studio  
 **Email de contact :** team.ylstudio@gmail.com
